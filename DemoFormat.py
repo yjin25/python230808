@@ -17,3 +17,10 @@ print("{0:e}".format(4/3))
 print("{0:f}".format(4/3))
 print("{0:.2f}".format(4/3))
 print("{0:,}".format(150000000))
+
+for i in range(0,10):
+    #동적으로 주소를 생성
+    strURL = "https://www.ycampus.co.kr/?page=" + str(i)
+    print(strURL)
+
+
